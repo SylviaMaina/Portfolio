@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap');
+a.navbar-brand{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 200;
+    color:#a52;
+}
+.header{
+    background-image: url("./Components/Media/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+}
+.heading{
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+}
+.heading button{
+    margin: 5rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 2rem;
+}
+.About{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    border-bottom: 2px solid #a52;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Link, .card-link{
+    text-decoration: none;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Link, .card-link:hover{
+    text-decoration: none;
+    color: #a52;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

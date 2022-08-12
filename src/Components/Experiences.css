@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap');
+
+.stats,.cards,.contacts{
+    display: flex;
+   
+}
+.contacts{
+    justify-content: space-between;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 2rem;
+    width: 80%;
+}
+.contacts h4{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+.infos{
+     width: 80%;
+     margin: 0 auto;
+}
+.Companies{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.Companies button{
+    height: 5rem;
+    width: 15rem;
+    margin: 1rem;
+    border: none;
+    font-size: large;
+    font-weight: 300;
+    background-color: transparent;
+}
+.Experiences{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+.cards{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.card{
+margin: 1rem;
+}
+
+@media(max-width:1000px){
+    .stats, .cards,.contacts{
+        display: block;
+        margin: 0 auto;
+      
+    }
+    .stats button:hover{
+        background-color: #a52;
+        border: 2px solid #a52;
+    }
+    .contacts h4{
+        text-align: start;
+    }
+    .cards{
+        margin-left: -2rem;
+    }
+    
+}
