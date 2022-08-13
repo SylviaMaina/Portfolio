@@ -46,6 +46,11 @@
 .card{
 margin: 1rem;
 }
+.sCards{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 @media(max-width:1000px){
     .stats, .cards,.contacts{

@@ -42,7 +42,8 @@ function App() {
           </Navbar>
           <div className="heading">
             <h2>
-              Hi there, My name is Sylvia Maina and I'm a front-end developer
+              Hi there, My name is Sylvia Maina and I'm a front-end website
+              developer
             </h2>
             <button>
               <a href={cv} download="Sylvia's cv" className="Link">

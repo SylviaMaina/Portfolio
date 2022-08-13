@@ -51,4 +51,9 @@ a.navbar-brand{
     text-decoration: none;
     color: #a52;
 }
+.me-auto{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 
