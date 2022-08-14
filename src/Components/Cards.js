@@ -36,14 +36,16 @@ function Cards() {
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="minora.netlify.app">View Website</Card.Link>
+            <Card.Link href="https://minora.netlify.app/">
+              View Website
+            </Card.Link>
             <Card.Link href="https://github.com/SylviaMaina/minori">
               View code
             </Card.Link>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <img src={sneaker} alt="..." style={{ height: "11rem" }} />
+          <img src={sneaker} alt="..." style={{ height: "9rem" }} />
           <Card.Body>
             <Card.Title>Sneaker Shop Section</Card.Title>
             <Card.Text>
@@ -52,7 +54,6 @@ function Cards() {
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
             <Card.Link href="https://github.com/SylviaMaina/Sneaker-e-commerce-component">
               View code here
             </Card.Link>
