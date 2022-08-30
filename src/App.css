@@ -4,10 +4,12 @@ a.navbar-brand{
     font-weight: 200;
     color:#a52;
 }
+
 .header{
     background-image: url("./Components/Media/header.jpg");
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     height: 40rem;

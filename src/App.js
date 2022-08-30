@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <div>
         <div className="header">
-          <Navbar bg="light" expand="lg">
+          <Navbar bg="transparent" expand="lg">
             <Container>
               <Navbar.Brand>
                 <img src={logo} alt="..." />
